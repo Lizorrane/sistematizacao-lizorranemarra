@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escola de Inglês com ensino do básico ao avançado, para todas as idades.">
+    <title>Casa de Cultura Americana</title>
+</head>
+
+<body>
+            <script src="main.js"></script>
+        <header class="cabeçalho"> 
+            <img class= "cabeçalho__logo" src="logocca.svg" height="medium" width="300">
+            <nav class="cabeçalho__menu">
+                <a class="cabeçalho__menu__item">Quem Somos?</a>
+                <a class="cabeçalho__menu__item">Cursos</a>
+                <a class="cabeçalho__menu__item">Metodologia</a>
+                <a class="cabeçalho__menu__item">Teste de Nivelamento</a>
+            </nav>
+        </header>
+            </div>
+            <main class="conteudo"> 
+            <section>
+            <div>
+                <h1 class= "conteudo__principal"> CCA IDIOMAS</h1>
+                <h2 class=" conteudo__principal"> We do simply the best!</h2>
+                <img class= "propaganda1" src="bannercca.jpg" height="400"> 
+                <img class="propaganda2" src= "cca banner.jpg" height="400">
+                <h3 class="descrição"> Estudar inglês na educação infantil faz com que a criança aprenda o novo idioma juntamente ao português, o que permite que o seu cérebro tenha mais facilidade para trocar de língua ao se comunicar. Além disso, o estudo de inglês na infância também estimula as funções cognitivas dos bebês e crianças.</h3>
+                <img class="imagens__escola" src="sala de crianças (2).jpeg" height="150">
+                <h4 class="descrição"> A CCA Idiomas, conta com uma biblioteca exclusiva para alunos, para apoiar e ajudar a incrementar e fortalecer o projeto pedagógico da nossa escola.</h4>
+            
+                <img class="imagens__escola" src="biblioteca (1).jpeg" height="150">
+            
+                <title>Formulário de contato</title>
+                <h1 class="titulo__formulario">Faça já um teste de nivelamento!</h1>
+                <h2 class="titulo__formulario">Deixe seu nome e e-mail que entraremos em contato!</h1>
+              
+              <form class= "formulario" id="contactForm">
+                <label for="nameInput">Seu Nome:</label>
+                <input type="text" id="nameInput" required>
+                
+                <label for="emailInput">Seu E-mail:</label>
+                <input type="email" id="emailInput" required>
+            
+                <label for="cidadeInput">Cidade:</label>
+                <input type="text" id="cidadeInput" required>
+            
+                <label for="estadoInput">Estado:</label>
+                <input type="text" id="estadoInput" required>
+            
+                <button type="submit">Enviar</button>
+              </form>
+              
+              <script>
+                document.getElementById("contactForm").addEventListener("submit", function(event) {
+                  event.preventDefault(); // Impede o envio padrão do formulário
+                  
+                  // Obtém os valores dos campos de entrada
+                  var name = document.getElementById("nameInput").value;
+                  var email = document.getElementById("emailInput").value;
+                  var cidade = document.getElementById("cidadeInput").value;
+                  var estado = document.getElementById("estado").value;
+                  
+                  // Aqui você pode adicionar o código para processar os dados do formulário, como enviar um e-mail ou fazer uma requisição ao servidor
+                  console.log("Nome: " + name);
+                  console.log("E-mail: " + email);
+                  console.log("Cidade" + cidade);
+                  console.log("Estado" + estado);
+            
+                  
+                  // Limpa os campos do formulário
+                  document.getElementById("nameInput").value = "";
+                  document.getElementById("emailInput").value = "";
+                  document.getElementById("cidadeInput").value = "";
+                  document.getElementById("estadoInput").value = "";
+                });
+              </script>
+            </div>
+            <iframe class= "video" width ="560" height="315" src="https://www.youtube.com/embed/gh7VOxMpipI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            </section>
+            
+            <section>
+                <div> 
+                    <h1 class="funcionarios__titulo">Equipe</h1>
+    
+                <div>
+                    <img class= "colaboradores" src="Gestor finaceiro.png" height="80"> 
+                    <span>Gestor Financeiro</span>
+                    <img class= "colaboradores" src="Coordenadora Pedagógica.png" height="80">
+                    <span>Coordenadora Pedagógica</span>
+                    <img class= "colaboradores" src="Professora L.png" height="80">
+                    <span>Professora de Inglês</span>
+                    <img class= "colaboradores" src="Professor A.png" height="80">
+                    <span>Professor de Inglês</span>
+                    <img class= "colaboradores" src="Professora B.png" height="80">
+                    <span>Professora de Inglês</span>
+                    <img class= "colaboradores" src="Secretária.png" height="80">
+                    <span>Secretária</span>
+                </div>
+                </div>
+            </section>
+        </main>
+       
+    </body>
+    </html>
+
+    
+    <footer>
+       <img class= "imagem__rodape" src="cca-rodape.svg" height="50">
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+  body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(241, 92, 92) 16.62%, white 85.61%);
+
+  }
+
+  .cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+  }
+
+  .cabeçalho__logo {
+    height: 100px;
+  }
+
+  .cabeçalho__menu {
+    display: flex;
+    gap: 32px;
+  }
+
+  .cabeçalho__menu__item {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .conteudo {
+    border-bottom: 0.4px solid black;
+    margin-bottom: 30px;
+    border-top: 0.4px solid black;
+  }
+
+  .conteudo__principal {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
+}
+  
+  .video {
+    width: 1000;
+    height: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+   
+  form {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: right;
+    padding: 24px;
+
+  }
+
+  .colaboradores {
+    display: inline-block;
+  }
+
+  span {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-weight: 400;
+  }
+    
+  
+.funcionarios__titulo {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.titulo__formulario {
+  display: flex;
+  justify-content: center;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+
+.propaganda1 {
+  display: block;
+  margin: auto;
+}
+
+.propaganda2 {
+  display: block;
+  margin: 0 auto;
+}
+
+.imagem__rodape {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+  
+.descrição {
+  padding: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+ 
+
+.imagens__escola {
+  display:block;
+  padding: 40px;
+  height: 500px;
+  margin: 0 auto;
+
+}
+
